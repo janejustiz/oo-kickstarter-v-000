@@ -8,6 +8,7 @@ class Backer
 
   def back_project(project)
     @backed_projects << project
+    project.title = self unless project.title == self
   end
 
 end
