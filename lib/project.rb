@@ -8,6 +8,6 @@ class Project
 
   def add_backer(backer)
     @backers << backer
-    back_project(self)
+    backer.name = self unless backer.name == self
   end
 end
