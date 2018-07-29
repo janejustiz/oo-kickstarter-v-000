@@ -6,6 +6,5 @@ class Backer
   end
 
   def back_project(title)
-    Project.new(title)
   end
 end
