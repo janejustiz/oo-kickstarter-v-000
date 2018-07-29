@@ -3,11 +3,8 @@ class Project
 
   def initialize(title)
     @title = title
-    @@backers = []
-    @@backers << self
   end
 
   def backers
-    @@backers
   end
 end
